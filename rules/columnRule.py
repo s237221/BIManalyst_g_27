@@ -6,3 +6,4 @@ def checkRule(model):
     result = f"Column: {len(Column)}"
 
     return result
+print("For now it is only showing how many columns there should be in the file")
