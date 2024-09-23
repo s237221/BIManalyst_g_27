@@ -41,7 +41,7 @@ def checkRule(model):
 
     # Output the resulting dictionary
     print("Columns with their calculated areas:")
-    for column_id, details in columns_areas.items():
-        print(f"GlobalID: {column_id}, Name: {details['Name']}, Area: {details['Area']}")
+    #for column_id, details in columns_areas.items():
+        #print(f"GlobalID: {column_id}, Name: {details['Name']}, Area: {details['Area']}")
 
-    return result
+    return columns_areas
