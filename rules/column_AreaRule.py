@@ -1,7 +1,7 @@
 # The code is extracting the globalID of the column, the name and it calculates and displays the cross-sectional area.
 # If there are missing details about the width and depth, it will display a message.
 import ifcopenshell
-
+from ifcopenshell.util import element
 
 def checkRule(model):
     # Initialize a dictionary to store the GlobalID, Name, and Area of all columns
