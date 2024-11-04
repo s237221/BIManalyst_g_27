@@ -62,7 +62,7 @@ def checkRule(model, specific_floor_level, req_depth, req_width):
 import ifcopenshell
 model = ifcopenshell.open("C:/Users/Alexandra/Desktop/SCHOOL/DTU_Education/SEM1/Advanced_BIM/LECTURE 1/CES_BLD_24_06_STR.ifc")
 
-# Example usage for checking one specific floor with set dimensions
+# Example
 specific_floor_level = 8  # Replace with the desired floor level elevation
 req_depth = 420  # Replace with the required depth for the specific floor
 req_width = 420  # Replace with the required width for the specific floor
