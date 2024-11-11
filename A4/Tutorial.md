@@ -19,9 +19,6 @@ The whole verification happens in one big 'for' loop where all the columns are t
         width = None
         floor_level = None
 
-        # Debug: Print column GlobalID
-        global_id = column.GlobalId
-
         # Loop through property sets to extract Depth and Width
         for pset_name, pset_props in column_properties.items():
             if 'Depth' in pset_props:
