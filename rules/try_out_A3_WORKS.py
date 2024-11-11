@@ -68,3 +68,4 @@ req_depth = 420  # Replace with the required depth for the specific floor
 req_width = 420  # Replace with the required width for the specific floor
 
 checkRule(model, specific_floor_level, req_depth, req_width)
+#The code checks that all the columns on a given floor match the dimensions given by the user. It should print out a message if all match the requirements or it should print out the GlobalID of the columns tht do not together with a message.
