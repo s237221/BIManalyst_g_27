@@ -73,7 +73,7 @@ Once, all the columns have been checked, a new verification is performed using t
 
 In order to get the code to run properly, the ifcOpenshell library needs to be imported and the fucntion needs to be called in a python interpreter software. The function contains four input parameters which need to be provided before calling it: the path to the model's location on the user's PC, the floor level for which the verification is performed and the required depth and width of the columns on the floor.
 
-            Example
+            #Example
             import ifcopenshell
             model = ifcopenshell.open("C:\file path\.ifc")
             specific_floor_level = 8  # Replace with the desired floor level elevation
