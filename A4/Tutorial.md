@@ -1,6 +1,9 @@
 Group 27: Ioana Alexandra Udangiu - s237221
+          
           Yao Tong - s232288
+
 Focus Area: Structural
+
 BIM use case: Design Review
 
 # Introduction
