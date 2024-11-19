@@ -3,12 +3,14 @@ Group 27: Ioana Alexandra Udangiu - s237221
 Focus Area: Structural
 BIM use case: Design Review
 
-#**Introduction**
+#Introduction
+
 The following tool uses the data in the model to check the client's requirements of columns cross-sectional dimensions. The function is set up in a way that the user provides the floor level, the path to the ifc model and the column's width and depth required. After verifying all the columns on the specified floor, the code returns a message positive message or a negative one together with theGlobalID of the columns that do not match the requirements so they can be changed.
 The tool is intended to be used at the end of the design stage by the project manager and structural engineers to quality control the design and input of the model.
 The code uses ifcOpenshell modules and functions.
 
-#**Steps in the code**
+#Steps in the code
+
 The whole verification happens in one big 'for' loop where all the columns are taken one by one and their geometrical properties are extracted using 'psets' function.
 
         # Retrieve the property sets (psets) of the column
@@ -65,7 +67,8 @@ Once, all the columns have been checked, a new verification is performed using t
     else:
         print("Some columns on the specified floor do not match the requirements.GlobalIDs of non-matching columns:", non_matching_columns)
 
-#**How to run the code**
+#How to run the code
+
 In order to get the code to run properly, the ifcOpenshell library needs to be imported and the fucntion needs to be called in a python interpreter software. The function contains four input parameters which need to be provided before calling it: the path to the model's location on the user's PC, the floor level for which the verification is performed and the required depth and width of the columns on the floor.
 
             import ifcopenshell
@@ -77,10 +80,12 @@ In order to get the code to run properly, the ifcOpenshell library needs to be i
 
             checkRule(model, specific_floor_level, req_depth, req_width)
  
- #**Code limitations**
+ #Code limitations
+ 
  The code is currently running under the assumption that all the columns on the required floor have the same dimensions, therefore it does not handle the case when the columns on one floor have different required cross-sections.
  The code does not check whether or not the necessarry information for the verification is available beforehand.
  The code checks the required dimensions only for one floor at the time.
 
- #**Good to know information**
+ #Good to know information
+ 
 As first time users of Blender and ifcOpenshell library, we wished we would have known a bit more about how the model in itself is defined. For example, that in order to run code that interprets floor level we need to know that it actually reads elevations and not a specific floor level or how to extract specific values of the properties (the psets function).
