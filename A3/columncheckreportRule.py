@@ -1,3 +1,10 @@
+# **Code description**
+#The code checks that all the columns on a given floor match the dimensions given by the user. 
+# It should print out a message if all columns match the requirements or it should print out the GlobalID of the columns that 
+# do not match the requirements together with a message.
+# At the bottom of the code, the user should insert the path to the file with the model and the floor that needs to be checked and the dimensions.
+
+
 from ifcopenshell.util import element
 
 def checkRule(model, specific_floor_level, req_depth, req_width):
@@ -16,6 +23,7 @@ def checkRule(model, specific_floor_level, req_depth, req_width):
         depth = None
         width = None
         floor_level = None
+        global_id = column.GlobalId
 
         # Loop through property sets to extract Depth and Width
         for pset_name, pset_props in column_properties.items():
@@ -61,8 +69,7 @@ model = ifcopenshell.open("C:/Users/Alexandra/Desktop/SCHOOL/DTU_Education/SEM1/
 
 # Example
 specific_floor_level = 8  # Replace with the desired floor level elevation
-req_depth = 420  # Replace with the required depth for the specific floor
+req_depth = 40  # Replace with the required depth for the specific floor
 req_width = 420  # Replace with the required width for the specific floor
 
 checkRule(model, specific_floor_level, req_depth, req_width)
-#The code checks that all the columns on a given floor match the dimensions given by the user. It should print out a message if all match the requirements or it should print out the GlobalID of the columns tht do not together with a message.
