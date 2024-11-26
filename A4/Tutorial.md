@@ -22,6 +22,7 @@ The whole verification happens in one big 'for' loop where all the columns are t
         depth = None
         width = None
         floor_level = None
+        global_id = column.GlobalId
 
         # Loop through property sets to extract Depth and Width
         for pset_name, pset_props in column_properties.items():
