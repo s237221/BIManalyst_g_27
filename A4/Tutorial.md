@@ -95,4 +95,4 @@ As first time users of Blender and ifcOpenshell library, we wished we would have
 
 # Summary
 
-This efficiently verifies column dimensions in IFC model by comparing them against specified requirements at a designated floor level during structural design. By extracting relevant properties, it provides clear feedback on compliance while highlighting any discrepancies for correction, playing a role in design verification phases for project managers and structural engineers.
+The tutorial describes the functionalities of the code and it explains how to use the tool by providing an example. This efficiently verifies column dimensions in IFC model by comparing them against specified requirements at a designated floor level during structural design. By extracting relevant properties, it provides clear feedback on compliance while highlighting any discrepancies for correction, playing a role in design verification phases for project managers and structural engineers.
