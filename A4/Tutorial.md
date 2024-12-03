@@ -92,3 +92,7 @@ In order to get the code to run properly, the ifcOpenshell library needs to be i
  # Good to know information
  
 As first time users of Blender and ifcOpenshell library, we wished we would have known a bit more about how the model in itself is defined. For example, that in order to run code that interprets floor level we need to know that it actually reads elevations and not a specific floor level or how to extract specific values of the properties (the psets function).
+
+# Summary
+
+This efficiently verifies column dimensions in IFC model by comparing them against specified requirements at a designated floor level during structural design. By extracting relevant properties, it provides clear feedback on compliance while highlighting any discrepancies for correction, playing a role in design verification phases for project managers and structural engineers.
