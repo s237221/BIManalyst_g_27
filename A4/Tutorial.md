@@ -11,7 +11,7 @@ The following tool uses the data in the model to check the client's requirements
 The tool is intended to be used at the end of the design stage by the project manager and structural engineers to quality control the design and input of the model.
 The code uses ifcOpenshell modules and functions.
 
-# How to use the tool
+# Verification of column dimensions based on user specified requirements
 
 The tutorial describes the functionalities of the code and it explains how to use the tool by providing an example. This efficiently verifies column dimensions in IFC model by comparing them against specified requirements at a designated floor level during structural design. By extracting relevant properties, it provides clear feedback on compliance while highlighting any discrepancies for correction, playing a role in design verification phases for project managers and structural engineers.
 
