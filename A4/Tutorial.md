@@ -7,8 +7,8 @@
 
 # Summary
 
-Title: Column Dimension Verification Tool for IFC Models
-Summary: The tutorial describes the functionalities of the code and it explains how to use the tool by providing an example. This efficiently verifies column dimensions in IFC model by comparing them against specified requirements at a designated floor level during structural design.
+**Title**: Column Dimension Verification Tool for IFC Models
+**Summary**: The tutorial describes the functionalities of the code and it explains how to use the tool by providing an example. This efficiently verifies column dimensions in IFC model by comparing them against specified requirements at a designated floor level during structural design.
 
 # Introduction
 
