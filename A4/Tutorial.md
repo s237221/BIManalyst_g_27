@@ -13,13 +13,9 @@
 
 # Introduction
 
-The following tool uses the data in the model to check the client's requirements of columns cross-sectional dimensions. The function is set up in a way that the user provides the floor level, the path to the ifc model and the column's width and depth required. After verifying all the columns on the specified floor, the code returns a message positive message or a negative one together with theGlobalID of the columns that do not match the requirements so they can be changed.
+The following tool uses the data in the model to check the client's requirements of columns cross-sectional dimensions. The function is set up in a way that the user provides the floor level, the path to the ifc model and the column's width and depth required. After verifying all the columns on the specified floor, the code returns a positive message or a negative one together with theGlobalID of the columns that do not match the requirements so they can be changed.
 The tool is intended to be used at the end of the design stage by the project manager and structural engineers to quality control the design and input of the model.
 The code uses ifcOpenshell modules and functions.
-
-# Verification of column dimensions based on user specified requirements
-
-The tutorial describes the functionalities of the code and it explains how to use the tool by providing an example. This efficiently verifies column dimensions in IFC model by comparing them against specified requirements at a designated floor level during structural design. By extracting relevant properties, it provides clear feedback on compliance while highlighting any discrepancies for correction, playing a role in design verification phases for project managers and structural engineers.
 
 # Steps in the code
 
